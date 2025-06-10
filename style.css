@@ -48,8 +48,8 @@ hr{
 }
 .video-btn{
     position: absolute;
-    left: 138px;
-    bottom: 114px;
+    left: 140px;
+    bottom: 59px;
 }
 .rbt-bottom{
     display: flex;
@@ -60,13 +60,15 @@ hr{
 }
 .mnt-btn {
     border: solid 1px;
-    color: black;
+    color: rgb(151, 149, 149);
     width: fit-content;
     border-radius: 35px;
-    padding: 9px;
-    padding-bottom: 5px;
-    padding-top: 4px;
-    margin-left: 25%;
+    padding: 6px 16px;
+   position: relative;
+   top: 10px;
+}
+.mnt-btn span{
+    color: black;
 }
 /* content right */
 .content-right {
@@ -74,9 +76,130 @@ hr{
     height: 100%;
     background-size: cover;
     background-position: left center;
-    border-radius: 40px;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 13px;
 }
-.right-btns{
-    
+.right-btns a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 45px;
+    padding: 10px 22px; 
+    font-size: small; 
+}
+.right-btns {
+   padding: 10px;
+    display: inline-block;
+}
+.talk-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 45px;
+    padding: 8px 20px; 
+    width: fit-content;
+    list-style: none;    
+}
+.talk-btn{
+    margin-top: 10px;
+    gap: 10px;
+    position: relative;
+}
+.talk-circle {
+    padding-left: 10px;
+    position: absolute;
+    padding-top: 8px;
+}
+.top-cnt{
+    display: flex;
+    justify-content: space-between;
 }
 
+
+.card{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.075);
+    padding: 7px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    top: 6px;
+}
+.card-2 {
+    display: flex;
+    flex-direction: column;
+}
+.card-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.vct-left {
+    background-color: white;
+    border-radius: 23px;
+    width: fit-content;
+    padding: 7px 10px;
+    height: fit-content;
+    margin-left: 11px;
+}
+.card p{
+    color: rgba(188, 204, 190, 1);
+    margin: 0;
+}
+.phts img{
+    align-items: center;
+}
+.left-head{
+    display: flex;
+    align-items: center;
+}
+.card-cnt span {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.phts img {
+    align-items: center;
+    position: relative;
+    left: -25px;
+    bottom: -29px;
+}
+/* graph */
+.graph{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    height: 130px;
+}
+.graph-1{
+    background-color: white;
+    height: 30%;
+    border-radius: 10px;
+    width: 100%;
+}
+.graph-2{
+    background-color: white;
+    height: 60%;
+    border-radius: 10px;
+    width: 100%;
+}
+.graph-3{
+    background-color: white;
+    height: 50%;
+    border-radius: 10px;
+    width: 100%;
+}
+.graph-4{
+    background-color: white;
+    height: 90%;
+    border-radius: 10px;
+    width: 100%;
+}
