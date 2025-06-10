@@ -27,6 +27,12 @@
 .start-btn{
     margin-top: 36px;
 }
+.start-btn a:hover{
+    background-color: rgb(139, 158, 139);
+    color: rgb(255, 254, 254);
+    transition: 0.5s;
+}
+
 hr{
     margin-top: 15%;
 }
@@ -107,6 +113,11 @@ hr{
     margin-top: 10px;
     gap: 10px;
     position: relative;
+}
+.talk-btn a:hover{
+    background-color: rgb(177, 173, 173);
+    color: black;
+    transition: 0.5s;
 }
 .talk-circle {
     padding-left: 10px;
